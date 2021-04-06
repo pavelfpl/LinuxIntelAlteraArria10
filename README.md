@@ -1,5 +1,5 @@
 # LinuxIntelAlteraArria10
-This repository contains comprehensive guide and collection of scripts for building embedded Linux system for Intel® (Altera) Arria® 10 SocFPGA. These steps were tested on **Terasic® HAN Pilot Platform** development board, but can be used with minor modifications for another boards using  Arria® 10 onboard. FPGA design is based on **a10s_ghrd** (HAN_v.1.0.5_HWrevE_SystemCD.zip).
+This repository contains comprehensive guide and collection of scripts for building embedded Linux system for **Intel® (Altera) Arria® 10 SocFPGA**. These steps were tested on **Terasic® HAN Pilot Platform** development board, but can be used with minor modifications for another boards using  Arria® 10 onboard. FPGA design is based on **a10s_ghrd** (HAN_v.1.0.5_HWrevE_SystemCD.zip) design.
 
 https://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&CategoryNo=228&No=1133 
 
@@ -215,7 +215,7 @@ GPIO testing:
 ./gpio_test 3
 ./gpio_test 0 
 
-mSGDMA testing:
+mSGDMA testing (from altera_msgdma_st):
 ./altera_msgdma_test_v2 
 
 Total Write/read bytes count: 40960000
@@ -226,7 +226,10 @@ Single direction speed [Mbit/s]: 1010.01
 ```
 ## 9] a10s_ghrd FPGA design with mSGDMA loopback
 
-For testing purpose FPGA design with mSGDMA ST loopback is provided. Tested with `Quartus 18.1.0`.
+For testing purpose FPGA design with mSGDMA ST loopback is provided. Tested with `Quartus 18.1.0`.  
+HPS FPGA bridges default configuration:
+
+![HPS configuration](https://github.com/pavelfpl/LinuxIntelAlteraArria10/blob/main/FPGA-bridges.png)
 
 ## 10] Advanced Linux configuration
 
