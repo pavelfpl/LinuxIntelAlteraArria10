@@ -1,5 +1,5 @@
 # LinuxIntelAlteraArria10
-This repository contains comprehensive guide and collection of scripts for building embedded Linux system for Intel® (Altera) . These steps were tested on **Terasic® HAN Pilot Platform** development board, but can be used with minor modifications for another boards using  Arria® 10 SocFPGA onboard. FPGA design is based on **a10s_ghrd** (HAN_v.1.0.5_HWrevE_SystemCD.zip).
+This repository contains comprehensive guide and collection of scripts for building embedded Linux system for Intel® (Altera) Arria® 10 SocFPGA. These steps were tested on **Terasic® HAN Pilot Platform** development board, but can be used with minor modifications for another boards using  Arria® 10 onboard. FPGA design is based on **a10s_ghrd** (HAN_v.1.0.5_HWrevE_SystemCD.zip).
 
 https://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&CategoryNo=228&No=1133 
 
