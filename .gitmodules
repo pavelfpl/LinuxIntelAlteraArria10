@@ -1,0 +1,3 @@
+[submodule "a10s_ghrd"]
+	path = a10s_ghrd
+	url = https://github.com/pavelfpl/a10s_ghrd
