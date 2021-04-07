@@ -231,6 +231,8 @@ HPS FPGA bridges default configuration:
 
 ![HPS configuration](https://github.com/pavelfpl/LinuxIntelAlteraArria10/blob/main/FPGA-bridges.png)
 
+Clone as submodule with: `git clone --recursive` or update with `git submodule update --init --recursive` 
+
 ## 10] Advanced Linux configuration
 
 - DHCP / static IP fallback
